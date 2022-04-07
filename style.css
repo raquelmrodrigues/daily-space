@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+  padding: 1rem;
+}
+main{
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  width: 420px;
+  margin: 20px 20px 0px 20px;
+}
+
+#form {
+  width: 300px;
+  margin: 20px auto 0px auto;
+}
+
+#copyright {
+  display: block;
+}
+    
+.title-section{
+  padding: 1rem;
+  width: 420px;
+  margin: 5px auto 0px auto;
+}
+    
+#date{
+  box-sizing: border-box;
+  width: 9rem;
+  padding: 10px;
+  border-radius: 5%;
+}
+    
+.image-div{
+  width: 80%;
+  margin: auto;
+}
+    
+#image_of_the_day{
+  width: 100%;
+}
+    
+.video-div{
+  width: 80%;
+  margin: auto;
+}
+    
+#videoLink{
+  width: 100%;
+  height: 70vh
+}
+    
+.description-div{
+  width: 80%;
+  margin:0.1rem auto 1rem;
+  border: solid 1px white;
+  padding: 0.5rem;
+  border-radius: 00.5rem;
+}
+    
+#description{
+  line-height:1.82;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

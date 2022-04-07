@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Daily Space</title>
+</head>
+<body>
+    <h1>Daily Space</h1>
+
+    <form id="form">
+        <label for="date">Escolha uma data:
+            <input id="date" type="date" min="1995-06-16" max=""> 
+        </label>
+    </form>
+
+    <section class="title-section">
+        <h2 id="title"></h2>
+        <p id="date"></p>
+        <p id="copyright" ></p>
+    </section>
+
+    <section id="media-section">
+    </section>
+
+    <div class="description-div">
+        <p id="description"></p>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -9,7 +9,7 @@ function nasarequested(){
     const mediaSection = document.querySelector("#media-section");
     const information = document.querySelector("#description");
 
-    const currentDate =new Date().toISOString().slice(0, 10);
+    const currentDate = new Date().toISOString().slice(0, 10);
 
 
     const imageSection =`<a id="hdimg" href="" target="-blank">
